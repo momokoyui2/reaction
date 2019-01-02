@@ -1,5 +1,5 @@
 /* Reaction by hung1001 */
-.reaction-wrap{margin:10px 0 15px;font-family:Font Awesome 5 Pro, Font Awesome 5 Brands}
+.reaction-wrap{margin:10px 0 15px;font-family:Font Awesome 5 Pro, Font Awesome 5 Brands;font-style:normal}
 .reaction{display:inline-block;position:relative;margin-left:5px;margin-right:5px}
 .reaction .icon{display:inline-block;position:relative;cursor:pointer;width:40px;height:40px;background:url(https://3.bp.blogspot.com/-1OpUB37NXLg/XCy4Tt8ipBI/AAAAAAAAHLo/-QCuYJXCITIwJfcxjRt21QwW96U2P_OeACLcBGAs/s1600/reaction-new.png) no-repeat;-webkit-background-size:40px 40px;-moz-background-size:40px;-o-background-size:40px;background-size:40px;-webkit-transition:background 0;-o-transition:background 0;-moz-transition:background 0;transition:background 0}
 #icon-like{background-position:0 -80px}
