@@ -1,0 +1,53 @@
+/* Reaction by hung1001 */
+.reaction-wrap{margin:10px 0 15px}
+.reaction{display:inline-block;position:relative;margin-left:5px;margin-right:5px}
+.reaction .icon{display:inline-block;position:relative;cursor:pointer;width:40px;height:40px;background:url(https://3.bp.blogspot.com/-1OpUB37NXLg/XCy4Tt8ipBI/AAAAAAAAHLo/-QCuYJXCITIwJfcxjRt21QwW96U2P_OeACLcBGAs/s1600/reaction-new.png) no-repeat;-webkit-background-size:40px 40px;-moz-background-size:40px;-o-background-size:40px;background-size:40px;-webkit-transition:background 0;-o-transition:background 0;-moz-transition:background 0;transition:background 0}
+#icon-like{background-position:0 -80px}
+#icon-love{background-position:0 -120px}
+#icon-haha{background-position:0 -40px}
+#icon-wow{background-position:0 -200px}
+#icon-sad{background-position:0 -160px}
+#icon-angry{background-position:0 -0px}
+#icon-dizzy{background-position:0 -280px}
+#icon-yay{background-position:0 -240px}
+.like-button.like #icon-like{background-position:0 -400px}
+.love-button.love #icon-love{background-position:0 -440px}
+.haha-button.haha #icon-haha{background-position:0 -360px}
+.wow-button.wow #icon-wow{background-position:0 -520px}
+.sad-button.sad #icon-sad{background-position:0 -480px}
+.angry-button.angry #icon-angry{background-position:0 -320px}
+.dizzy-button.dizzy #icon-dizzy{background-position:0 -600px}
+.yay-button.yay #icon-yay{background-position:0 -560px}
+.reaction .icon span{width:30px;height:8px;left:20px;top:18px;background:transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;position:absolute;-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:0 50%;-moz-transform-origin:0 50%;-ms-transform-origin:0 50%;-o-transform-origin:0 50%;transform-origin:0 50%;-webkit-transition:all .1s linear;-o-transition:all .1s linear;-moz-transition:all .1s linear;transition:all .1s linear;overflow:hidden;text-align:right;pointer-events:none}
+.reaction .icon span::before{content:"";position:absolute;top:0;right:10%;display:block;width:50%;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;height:6px;background:rgba(247,40,109,0)}
+.reaction .icon span:nth-of-type(2){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.reaction .icon span:nth-of-type(3){-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg)}
+.reaction .icon span:nth-of-type(4){-webkit-transform:rotate(135deg);-moz-transform:rotate(135deg);-ms-transform:rotate(135deg);-o-transform:rotate(135deg);transform:rotate(135deg)}
+.reaction .icon span:nth-of-type(5){-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.reaction .icon span:nth-of-type(6){-webkit-transform:rotate(225deg);-moz-transform:rotate(225deg);-ms-transform:rotate(225deg);-o-transform:rotate(225deg);transform:rotate(225deg)}
+.reaction .icon span:nth-of-type(7){-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg)}
+.reaction .icon span:nth-of-type(8){-webkit-transform:rotate(315deg);-moz-transform:rotate(315deg);-ms-transform:rotate(315deg);-o-transform:rotate(315deg);transform:rotate(315deg)}
+.angry-button.angry #icon-angry span,.dizzy-button.dizzy #icon-dizzy span,.haha-button.haha #icon-haha span,.like-button.like #icon-like span,.love-button.love #icon-love span,.sad-button.sad #icon-sad span,.wow-button.wow #icon-wow span,.yay-button.yay #icon-yay span{width:50px}
+.angry-button.angry #icon-angry span::before,.dizzy-button.dizzy #icon-dizzy span::before,.like-button.like #icon-like span::before,.love-button.love #icon-love span::before{width:10%;right:-10%;-webkit-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-o-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-moz-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115)}
+.like-button.like #icon-like span::before{background:#548dff}
+.love-button.love #icon-love span::before{background:#f55065}
+.dizzy-button.dizzy #icon-dizzy span::before{background:#fc4d18}
+.angry-button.angry #icon-angry span::before{background:#f97c68}
+.haha-button.haha #icon-haha span::before{background:##04B404}
+.sad-button.sad #icon-sad span::before{background:#04B4AE}
+.wow-button.wow #icon-wow span::before{background:#6A0888}
+.yay-button.yay #icon-yay span::before{width:10%;right:-10%;background:#F781F3;-webkit-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-o-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-moz-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115)}
+.reaction .total{font-size:60%;position:absolute;top:-5px;right:-2px;display:inline-block;font-weight:700;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;padding:2px 6px;color:#fff;background:#a9a9a9}
+.like-button.like .total{background:#548dff}
+.love-button.love .total{background:#f55065}
+.haha-button.haha .total{background:#04B404}
+.sad-button.sad .total{background:#04B4AE}
+.wow-button.wow .total{background:#6A0888}
+.yay-button.yay .total{background:#F781F3}
+.angry-button.angry .total{background:#f97c68}
+.dizzy-button.dizzy .total{background:#fc4d18}
+[data-tooltip]{position:relative}
+[data-tooltip]:before{content:'';visibility:hidden;opacity:0;border:5px solid #333;border-top-color:transparent;border-right-color:transparent;border-bottom-color:#333;border-left-color:transparent;position:absolute;bottom:-2px;left:12px;z-index:8;font-size:0;line-height:0;width:0;height:0;-webkit-transition:opacity .5s;-o-transition:opacity .5s;-moz-transition:opacity .5s;transition:opacity .5s}
+[data-tooltip]:after{visibility:hidden;opacity:0;content:attr(data-tooltip);position:absolute;bottom:-30px;left:0;padding:0 .5em;background:#333;color:#fff;z-index:9;font-size:13px;height:28px;line-height:28px;white-space:nowrap;word-wrap:normal;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-transition:opacity .5s;-o-transition:opacity .5s;-moz-transition:opacity .5s;transition:opacity .5s}
+[data-tooltip]:hover:before,[data-tooltip]:hover:after{visibility:visible;opacity:1}
+.home-page-container .home-posts-container .timeline-posts .header div.dropdown span i.far{color:#676767;font-size:18px}
